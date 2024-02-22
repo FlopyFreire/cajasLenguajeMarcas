@@ -1,0 +1,62 @@
+body {
+    background-color: #556b2f;
+  }
+  
+  .tarjeta {
+    width: 320px;
+    height: 400px;
+    background-color: #556b2f;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 4px 28px -3px rgba(252,252,252,1);
+    -moz-box-shadow: 3px 4px 28px -3px rgba(252,252,252,1);
+    box-shadow: 3px 4px 28px -3px rgba(252,252,252,1);
+    border: #6a302a 2px solid;
+  }
+  
+  .titulo {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .cuerpo {
+    margin-bottom: 22.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+
+  .cuerpo img {
+    
+    align-self: center;
+  }
+  
+  
+  .cuerpo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    font-size: 15px;
+    color: #1a1919;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+    
+  }
+  
+  .pie {
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 10px;
+    background-color: #6699ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .pie a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
